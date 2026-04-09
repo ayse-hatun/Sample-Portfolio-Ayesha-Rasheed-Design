@@ -5,10 +5,9 @@ import { GithubIcon, LinkedinIcon, TwitterIcon } from './Icons'
 import './Footer.css'
 
 const socials = [
-  { label: 'GITHUB',   href: 'https://github.com',   icon: <GithubIcon size={16} strokeWidth={1.5} /> },
-  { label: 'LINKEDIN', href: 'https://linkedin.com',  icon: <LinkedinIcon size={16} strokeWidth={1.5} /> },
-  { label: 'TWITTER',  href: 'https://twitter.com',   icon: <TwitterIcon size={16} strokeWidth={1.5} /> },
-  { label: 'EMAIL',    href: 'mailto:ayesha@email.com', icon: <Mail size={16} strokeWidth={1.5} /> },
+  { label: 'GITHUB',   href: 'https://github.com/ayse-hatun/',                           icon: <GithubIcon size={16} strokeWidth={1.5} /> },
+  { label: 'LINKEDIN', href: 'https://www.linkedin.com/in/ayesha-rasheed-khan/',         icon: <LinkedinIcon size={16} strokeWidth={1.5} /> },
+  { label: 'EMAIL',    href: 'mailto:ayesharasheedkhan64@gmail.com',                     icon: <Mail size={16} strokeWidth={1.5} /> },
 ]
 
 export default function Footer() {
@@ -22,7 +21,7 @@ export default function Footer() {
         <div className="footer__top">
           <div className="footer__brand">
             <h2 className="footer__name">Ayesha</h2>
-            <p className="uppercase-sm">Full Stack Developer & Digital Trainer</p>
+            <p className="uppercase-sm">Meta Ads Expert · Full-Stack Developer · Digital Trainer</p>
           </div>
           
           <div className="footer__social-links">

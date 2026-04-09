@@ -2,32 +2,27 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { ArrowUpRight, Plus, Minus } from 'lucide-react'
-import { transitionPremium, staggerContainer, fadeUp, fadeScale } from '../utils/motion'
+import { transitionPremium, staggerContainer, fadeUp, fadeScale, letterReveal } from '../utils/motion'
 import './Home.css'
 
 const services = [
   { 
     id: '01', 
-    title: 'BRANDING', 
-    desc: 'Crafting unique visual identities that resonate with your audience and stand out in the digital landscape.' 
+    title: 'FULL STACK DEVELOPMENT & DESIGN', 
+    desc: 'Building high-performance, scalable full-stack web applications using React, Next.js, Node.js, and modern databases — with a strong eye for clean, user-centered design.' 
   },
   { 
     id: '02', 
-    title: 'PRODUCT DESIGN', 
-    desc: 'Creating intuitive, user-centered digital products through research, prototyping, and visual excellence.' 
-  },
-  { 
-    id: '03', 
-    title: 'WEB DEVELOPMENT', 
-    desc: 'Building high-performance, scalable web applications with modern technologies like React and Node.js.' 
+    title: 'META ADS & DIGITAL MARKETING', 
+    desc: 'Strategic Meta Ads campaign management — from creative design and audience targeting to performance tracking and ROI optimization for measurable business growth.' 
   },
 ]
 
 const stats = [
   { label: 'Years of Experience', value: '05' },
-  { label: 'Client Rating', value: '5.00' },
-  { label: 'Total Projects', value: '120+' },
-  { label: 'Awards', value: '03' },
+  { label: 'Students Trained',    value: '5K+' },
+  { label: 'Projects Delivered',  value: '50+' },
+  { label: 'Client Rating',       value: '5.0' },
 ]
 
 const projects = [
@@ -51,10 +46,11 @@ export default function Home() {
       <section className="hero">
         <div className="container hero__container">
           <div className="hero__layout">
-            {/* Left Content */}
+
+            {/* Left — Title + Card below */}
             <div className="hero__content-left">
               <motion.div variants={fadeUp} className="hero__intro uppercase-sm">
-                Hi 👋, I'm Ayesha Rasheed
+                Hi 👋, I'm Ayesha Rasheed Khan
               </motion.div>
               <motion.h1 className="hero__title">
                 <div className="mask">
@@ -86,11 +82,24 @@ export default function Home() {
                     transition={{ delay: 0.2 }}
                     style={{ display: 'block' }}
                   >
-                    & DESIGN.
+                    &amp; DESIGN.
                   </motion.span>
                 </div>
               </motion.h1>
-              
+
+              {/* Expertise Card — under the title text */}
+              <motion.div variants={fadeUp} className="hero__expertise-card">
+                <p>Full Stack Developer &amp; Designer · Meta Ads Expert · Digital Literacy Trainer based in Lahore, PK.</p>
+                <a href="mailto:ayesharasheedkhan64@gmail.com" className="hero__email">ayesharasheedkhan64@gmail.com</a>
+                <div className="hero__discuss-btn">
+                  <span>LET'S<br />DISCUSS</span>
+                  <ArrowUpRight size={20} />
+                </div>
+              </motion.div>
+            </div>
+
+            {/* Right — Portrait + Signature below */}
+            <div className="hero__content-right">
               <div className="hero__visual-container">
                 <motion.div variants={fadeScale} className="hero__circle-bg" />
                 <motion.img 
@@ -99,8 +108,6 @@ export default function Home() {
                   alt="Ayesha" 
                   className="hero__portrait" 
                 />
-                
-                {/* Floating Badges */}
                 <motion.div 
                   className="badge badge--designer"
                   animate={{ y: [0, -10, 0] }}
@@ -116,23 +123,13 @@ export default function Home() {
                   Branding
                 </motion.div>
               </div>
-            </div>
 
-            {/* Right Content */}
-            <div className="hero__content-right">
+              {/* Signature — near/under the picture */}
               <div className="hero__signature">
                 <span className="font-script">Ayesha Rasheed</span>
               </div>
-              
-              <motion.div variants={fadeUp} className="hero__expertise-card">
-                <p>5+ Years of Expertise, Award-Winning Creative Designer in Karachi, PK.</p>
-                <a href="mailto:hello@ayesha.com" className="hero__email">hello@ayesha.com</a>
-                <div className="hero__discuss-btn">
-                  <span>LET'S<br />DISCUSS</span>
-                  <ArrowUpRight size={20} />
-                </div>
-              </motion.div>
             </div>
+
           </div>
         </div>
       </section>

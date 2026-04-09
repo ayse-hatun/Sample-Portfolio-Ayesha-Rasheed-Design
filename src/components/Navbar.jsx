@@ -15,8 +15,8 @@ const leftLinks = [
 ]
 
 const rightLinks = [
-  { href: 'https://linkedin.com', icon: 'linkedin' },
-  { href: 'https://twitter.com',  icon: 'twitter' },
+  { href: 'https://www.linkedin.com/in/ayesha-rasheed-khan/', icon: 'linkedin', label: 'LinkedIn' },
+  { href: 'https://twitter.com',  icon: 'twitter',  label: 'Twitter' },
 ]
 
 const drawerLinkVariants = {
@@ -81,7 +81,7 @@ export default function Navbar() {
           <div className="navbar__section navbar__section--right">
             <div className="navbar__socials">
               <Magnetic strength={0.3}><a href="#" className="navbar__social-icon"><Globe size={18} strokeWidth={1.5} /></a></Magnetic>
-              <Magnetic strength={0.3}><a href="https://linkedin.com" className="navbar__social-icon" target="_blank" rel="noopener noreferrer"><LinkedinIcon size={18} /></a></Magnetic>
+              <Magnetic strength={0.3}><a href="https://www.linkedin.com/in/ayesha-rasheed-khan/" className="navbar__social-icon" target="_blank" rel="noopener noreferrer"><LinkedinIcon size={18} /></a></Magnetic>
               <Magnetic strength={0.3}><a href="https://twitter.com" className="navbar__social-icon" target="_blank" rel="noopener noreferrer"><TwitterIcon size={18} /></a></Magnetic>
             </div>
             

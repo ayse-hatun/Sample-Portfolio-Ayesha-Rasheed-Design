@@ -5,56 +5,56 @@ import { GithubIcon } from '../components/Icons'
 import { transitionPremium, fadeUp, staggerContainer } from '../utils/motion'
 import './Projects.css'
 
-const categories = ['All', 'Full Stack', 'Frontend', 'Backend', 'Training']
+const categories = ['All', 'Full Stack', 'Frontend', 'Meta Ads', 'Training']
 
 const projects = [
   {
     id: 1, category: 'Full Stack',
     title: 'EduConnect LMS',
-    desc: 'A comprehensive Learning Management System enabling 5,000+ students to access digital literacy courses.',
-    longDesc: 'Built a full-stack LMS with real-time progress tracking, video streaming, quiz engine, certificate generation, and admin dashboard. Implemented JWT auth and role-based access.',
+    desc: 'A Learning Management System enabling 5,000+ students to access digital literacy courses online.',
+    longDesc: 'Built a full-stack LMS with real-time progress tracking, video streaming, quiz engine, certificate generation, and an admin dashboard. Implemented JWT auth and role-based access control.',
     tech: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'JWT'],
     stats: ['5K+ Students', '200+ Courses', '98% Satisfaction'],
   },
   {
-    id: 2, category: 'Full Stack',
-    title: 'ShopFlow E-Commerce',
-    desc: 'A production-ready e-commerce platform with real-time inventory management, Stripe payments, and analytics.',
-    longDesc: 'Full-stack e-commerce with cart, wishlist, order tracking, Stripe checkout, email notifications, seller dashboard, and inventory management.',
-    tech: ['Next.js', 'Stripe', 'PostgreSQL', 'Redis', 'Prisma'],
-    stats: ['500+ Products', '$50K Revenue', '99.9% Uptime'],
+    id: 2, category: 'Meta Ads',
+    title: 'Meta Ads Growth Campaign',
+    desc: 'End-to-end Meta Ads strategy for a retail brand — creative design, audience targeting, and ROI tracking.',
+    longDesc: 'Designed and managed a full-funnel Meta Ads campaign including creative ad sets, A/B testing, custom audience segmentation, retargeting, and weekly performance reporting with ROI dashboards.',
+    tech: ['Meta Ads Manager', 'Canva / Figma', 'Facebook Pixel', 'Google Analytics', 'A/B Testing'],
+    stats: ['3x ROAS', '40% Lower CPL', '150K+ Reach'],
   },
   {
     id: 3, category: 'Full Stack',
-    title: 'DevCollab Hub',
-    desc: 'Real-time collaboration tool for development teams featuring code review and task tracking.',
-    longDesc: 'Built with WebSockets for real-time updates, integrated with GitHub API for PR reviews, Kanban board, time tracking, and Slack notifications.',
-    tech: ['React', 'Socket.io', 'Express', 'MongoDB', 'GitHub API'],
-    stats: ['1K+ Teams', '10K+ PRs', '4.9 ⭐ Rating'],
+    title: 'ShopFlow E-Commerce',
+    desc: 'A production-ready e-commerce platform with Stripe payments, real-time inventory, and seller dashboard.',
+    longDesc: 'Full-stack e-commerce with cart, wishlist, order tracking, Stripe checkout, email notifications, seller dashboard, and inventory management built on Next.js and PostgreSQL.',
+    tech: ['Next.js', 'Stripe', 'PostgreSQL', 'Prisma', 'Tailwind CSS'],
+    stats: ['500+ Products', 'Stripe Integrated', '99.9% Uptime'],
   },
   {
     id: 4, category: 'Frontend',
     title: 'FinanceFlow Dashboard',
-    desc: 'A stunning data visualization dashboard for personal finance tracking with interactive charts.',
-    longDesc: 'Built an interactive finance dashboard with D3.js charts, spending heatmaps, budget alerts, export to PDF, and dark/light mode support.',
-    tech: ['React', 'D3.js', 'Tailwind', 'Recharts'],
+    desc: 'An interactive data visualization dashboard for personal finance tracking with animated charts.',
+    longDesc: 'Built with React and Recharts — features spending heatmaps, budget alerts, category breakdowns, export to PDF, and full dark/light mode support.',
+    tech: ['React', 'Recharts', 'Tailwind CSS', 'Framer Motion'],
     stats: ['Real-time Data', '12 Chart Types', 'PWA Ready'],
   },
   {
-    id: 5, category: 'Backend',
-    title: 'API Gateway Service',
-    desc: 'A robust API gateway handling authentication, rate limiting, and request routing for microservices.',
-    longDesc: 'Microservices API gateway with OAuth2, JWT, Redis caching, rate limiting, circuit breaker pattern, and Prometheus monitoring integration.',
-    tech: ['Node.js', 'Redis', 'Docker', 'Kubernetes', 'Prometheus'],
-    stats: ['10M+ Req/Day', '<50ms Latency', '99.99% SLA'],
+    id: 5, category: 'Meta Ads',
+    title: 'Lead Generation Campaign',
+    desc: 'Targeted Meta lead-gen campaign for a professional services firm, achieving low cost-per-lead.',
+    longDesc: 'Developed audience personas, designed conversion-focused ad creatives, set up lead forms with CRM integration, and optimized bids weekly. Managed full monthly budget and reported KPIs.',
+    tech: ['Meta Ads Manager', 'Lead Forms', 'CRM Integration', 'Performance Tracking'],
+    stats: ['500+ Leads/Mo', '60% Lower CPL', '4.8/5 Client Rating'],
   },
   {
     id: 6, category: 'Training',
     title: 'Digital Skills Academy',
-    desc: 'Developed and delivered a comprehensive digital literacy curriculum training 5,000+ students.',
-    longDesc: 'Designed 40+ hour curriculum covering internet safety, MS Office, basic coding, and professional communication. Conducted workshops, assessments, and certification programs.',
-    tech: ['Curriculum Design', 'PowerPoint', 'Google Classroom', 'Zoom'],
-    stats: ['5K+ Trained', '20 Workshops', '92% Pass Rate'],
+    desc: 'Developed and delivered a comprehensive digital literacy curriculum for 5,000+ students nationwide.',
+    longDesc: 'Designed 40+ hour curriculum covering internet safety, MS Office, AI tools literacy, basic coding, and professional digital communication. Conducted workshops, assessments, and certification programs.',
+    tech: ['Curriculum Design', 'AI Tools', 'Google Classroom', 'Zoom', 'PowerPoint'],
+    stats: ['5K+ Trained', '20+ Workshops', '92% Pass Rate'],
   },
 ]
 

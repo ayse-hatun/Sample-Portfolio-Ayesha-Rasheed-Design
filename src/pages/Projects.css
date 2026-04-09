@@ -67,9 +67,9 @@
 }
 
 .project-card-stark__title {
-  font-size: 2rem;
+  font-size: 1.4rem;
   margin: 1rem 0;
-  line-height: 1.1;
+  line-height: 1.2;
   font-weight: 400;
 }
 
@@ -122,9 +122,9 @@
 }
 
 .modal-stark__title {
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
   margin: 0.5rem 0 2rem;
-  line-height: 1;
+  line-height: 1.1;
 }
 
 .modal-stark__divider {

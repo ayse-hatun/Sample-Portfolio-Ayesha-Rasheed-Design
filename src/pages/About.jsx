@@ -17,36 +17,41 @@ import { transitionPremium, fadeUp, staggerContainer } from '../utils/motion'
 import './About.css'
 
 const timeline = [
-  { year: '2021', title: 'STARTED CODING JOURNEY', desc: 'Discovered my passion for web development through self-learning and online courses.', icon: <Rocket size={20} strokeWidth={1} /> },
-  { year: '2022', title: 'FIRST FREELANCE CLIENT', desc: 'Delivered a full-stack e-commerce platform, earning my first professional experience.', icon: <Briefcase size={20} strokeWidth={1} /> },
-  { year: '2023', title: 'DIGITAL LITERACY TRAINER', desc: 'Joined a national initiative to train 5,000+ students in digital skills and web literacy.', icon: <GraduationCap size={20} strokeWidth={1} /> },
-  { year: '2024', title: 'ADVANCED FULL STACK', desc: 'Mastered React, Node.js, and cloud deployments while building production-grade apps.', icon: <Zap size={20} strokeWidth={1} /> },
-  { year: '2025', title: 'OPEN FOR OPPORTUNITIES', desc: 'Seeking impactful roles to combine development expertise and educational passion.', icon: <Star size={20} strokeWidth={1} /> },
+  { year: '2021', title: 'STARTED CODING JOURNEY', desc: 'Discovered my passion for web development through self-learning, building my first projects with HTML, CSS, and JavaScript.', icon: <Rocket size={20} strokeWidth={1} /> },
+  { year: '2022', title: 'FIRST FREELANCE CLIENT', desc: 'Delivered a full-stack web application for my first client, earning hands-on production experience with React and Node.js.', icon: <Briefcase size={20} strokeWidth={1} /> },
+  { year: '2023', title: 'DIGITAL LITERACY TRAINER', desc: 'Joined a national initiative to design and deliver digital literacy curricula, training 5,000+ students in digital skills and AI tools.', icon: <GraduationCap size={20} strokeWidth={1} /> },
+  { year: '2024', title: 'META ADS EXPERT', desc: 'Specialized in Meta Ads campaign strategy & management — driving ROI through creative ad design, audience targeting, and performance analytics.', icon: <Zap size={20} strokeWidth={1} /> },
+  { year: '2025', title: 'OPEN FOR OPPORTUNITIES', desc: 'Seeking impactful roles combining full-stack development, digital marketing expertise, and a passion for AI-driven innovation.', icon: <Star size={20} strokeWidth={1} /> },
 ]
 
 const skillCategories = [
   {
     title: 'FRONTEND',
     icon: <Code size={24} strokeWidth={1} />,
-    skills: ['React / Next.js', 'TypeScript', 'CSS / Tailwind', 'Framer Motion']
+    skills: ['React.js / Next.js', 'HTML5 / CSS3', 'Tailwind CSS', 'Framer Motion', 'JavaScript (ES6+)']
   },
   {
     title: 'BACKEND',
     icon: <Settings size={24} strokeWidth={1} />,
-    skills: ['Node.js / Express', 'Python / Django', 'REST APIs', 'GraphQL']
+    skills: ['Node.js / Express.js', 'Python / FastAPI', 'REST APIs', 'GraphQL']
   },
   {
     title: 'DATABASE & CLOUD',
     icon: <Cloud size={24} strokeWidth={1} />,
-    skills: ['MongoDB', 'PostgreSQL', 'Firebase', 'AWS / Vercel']
+    skills: ['MongoDB', 'MySQL / Firebase', 'AWS', 'Vercel Deployment']
+  },
+  {
+    title: 'DIGITAL MARKETING',
+    icon: <Globe size={24} strokeWidth={1} />,
+    skills: ['Meta Ads Strategy', 'Ad Creative Design', 'Audience Targeting', 'ROI Optimization', 'Performance Analytics']
   },
 ]
 
 const funFacts = [
-  { icon: <Coffee size={32} strokeWidth={1} />, title: 'COFFEE DRIVEN', desc: 'Powered by endless cups of chai and the will to ship.' },
-  { icon: <Moon size={32} strokeWidth={1} />, title: 'NIGHT OWL', desc: 'My best code gets written after midnight. Always.' },
-  { icon: <BookOpen size={32} strokeWidth={1} />, title: 'ALWAYS LEARNING', desc: 'Currently exploring AI, machine learning, and Web3.' },
-  { icon: <Globe size={32} strokeWidth={1} />, title: 'GLOBAL MINDSET', desc: 'Collaborated with teams across 10+ countries.' },
+  { icon: <Coffee size={32} strokeWidth={1} />, title: 'CHAI POWERED', desc: 'Fueled by endless cups of chai — my best ideas come mid-sip.' },
+  { icon: <Moon size={32} strokeWidth={1} />, title: 'NIGHT OWL', desc: 'My sharpest code and campaigns get crafted after midnight.' },
+  { icon: <BookOpen size={32} strokeWidth={1} />, title: 'ALWAYS LEARNING', desc: 'Currently deep-diving into AI tools, automation, and generative design.' },
+  { icon: <Globe size={32} strokeWidth={1} />, title: 'TRAINER AT HEART', desc: 'Passionate about simplifying complex tech — trained 5,000+ students and counting.' },
 ]
 
 export default function About() {
@@ -74,13 +79,10 @@ export default function About() {
               transition={{ delay: 0.4 }}
             >
               <h1 className="about-hero__title">
-                Passionate Builder & Lifelong Learner
+                Meta Ads Expert, Full-Stack Developer &amp; Digital Literacy Trainer
               </h1>
               <p className="about-hero__desc">
-                I'm <strong>Ayesha Rasheed</strong> — a Full Stack Developer and Digital Literacy Trainer
-                who believes technology should empower everyone. I build clean, scalable web applications
-                and teach others to do the same. My mission is to bridge the gap between technology and
-                human potential.
+                I'm <strong>Ayesha Rasheed Khan</strong> — a dynamic professional combining expertise in Meta Ads campaign strategy, full-stack web development (MERN &amp; beyond), and AI-powered digital literacy training. I turn ideas into measurable results — whether through high-ROI ad campaigns, scalable web apps, or empowering students with cutting-edge digital skills.
               </p>
             </motion.div>
             <motion.div 
@@ -88,7 +90,7 @@ export default function About() {
               variants={fadeUp}
               transition={{ delay: 0.6 }}
             >
-              LOCATED IN<br />KARACHI, PK
+              LOCATED IN<br />LAHORE, PK
             </motion.div>
           </div>
         </div>
@@ -145,7 +147,7 @@ export default function About() {
         <div className="container">
           <div className="section-header">
             <motion.p variants={fadeUp} className="uppercase-sm">02. Expertise</motion.p>
-            <h2 className="section-title-large">Technical Stack</h2>
+            <h2 className="section-title-large">Skills & Expertise</h2>
           </div>
 
           <div className="skills-grid-stark">

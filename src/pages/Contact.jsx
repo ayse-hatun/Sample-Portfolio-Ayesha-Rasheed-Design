@@ -7,9 +7,9 @@ import Magnetic from '../components/Magnetic'
 import './Contact.css'
 
 const contactInfo = [
-  { icon: <Mail size={18} strokeWidth={1} />, label: 'EMAIL',     value: 'ayesharasheeedkhan64@gmail.com',    href: 'mailto:ayesharasheedkhan64@gmail.com' },
-  { icon: <LinkedinIcon size={18} strokeWidth={1} />, label: 'LINKEDIN',  value: 'linkedin.com/in/ayesha', href: 'https://linkedin.com/in/AyeshaRasheed' },
-  { icon: <GithubIcon size={18} strokeWidth={1} />, label: 'GITHUB',    value: 'github.com/ayesha',   href: 'https://github.com/AyeshaRasheed' },
+  { icon: <Mail size={18} strokeWidth={1} />, label: 'EMAIL',    value: 'ayesharasheedkhan64@gmail.com', href: 'mailto:ayesharasheedkhan64@gmail.com' },
+  { icon: <LinkedinIcon size={18} strokeWidth={1} />, label: 'LINKEDIN', value: 'linkedin.com/in/ayesha-rasheed-khan', href: 'https://www.linkedin.com/in/ayesha-rasheed-khan/' },
+  { icon: <GithubIcon size={18} strokeWidth={1} />, label: 'GITHUB',   value: 'github.com/ayse-hatun', href: 'https://github.com/ayse-hatun/' },
 ]
 
 export default function Contact() {
@@ -184,7 +184,7 @@ export default function Contact() {
                     <div className="contact-detail-stark__icon"><MapPin size={18} strokeWidth={1} /></div>
                     <div className="contact-detail-stark__body">
                        <p className="uppercase-sm">LOCATION</p>
-                       <span className="contact-detail-stark__value">Karachi, Pakistan (GMT+5)</span>
+                       <span className="contact-detail-stark__value">Lahore, Pakistan (GMT+5)</span>
                     </div>
                   </motion.div>
 
