@@ -1,0 +1,154 @@
+.about {
+  background-color: var(--bg-primary);
+}
+
+/* ── Hero ── */
+.about-hero {
+  border-bottom: 2px solid var(--border);
+}
+
+.about-hero__grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.about-hero__title {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  margin-bottom: 2rem;
+  line-height: 1;
+}
+
+.about-hero__desc {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.about-hero__meta, .about-hero__location {
+  padding-top: 1rem;
+}
+
+/* ── Journey ── */
+.section-header {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+.section-title-large {
+  font-size: clamp(3rem, 8vw, 6rem);
+  margin-top: 0.5rem;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.timeline-item:last-child {
+  border-bottom: none;
+}
+
+.timeline-item__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.timeline-item__title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+}
+
+.timeline-item__desc {
+  font-size: 0.9rem;
+  max-width: 600px;
+}
+
+/* ── Skills ── */
+.skills-grid-stark {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background-color: var(--border);
+  border: 1px solid var(--border);
+}
+
+.skill-card-stark {
+  background-color: var(--bg-primary);
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.skill-card-stark__icon {
+  margin-bottom: 2rem;
+}
+
+.skill-card-stark__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.skill-card-stark__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* ── Fun Facts ── */
+.facts-grid-stark {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.fact-card-stark {
+  text-align: left;
+}
+
+.fact-card-stark__icon {
+  margin-bottom: 1.5rem;
+}
+
+.fact-card-stark__title {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.fact-card-stark__desc {
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .about-hero__grid { grid-template-columns: 1fr; gap: 3rem; }
+  .skills-grid-stark { grid-template-columns: 1fr; }
+  .facts-grid-stark { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 768px) {
+  .timeline-item { grid-template-columns: 1fr; gap: 1rem; }
+  .about-hero__title { font-size: 3rem; }
+  .section-title-large { font-size: 3.5rem; }
+}
