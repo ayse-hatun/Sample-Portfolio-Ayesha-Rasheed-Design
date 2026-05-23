@@ -1,6 +1,6 @@
 <div align="center">
 
-# ✨ Sample Portfolio — Ayesha Rasheed
+# ✨ Sample Portfolio 
 
 </div>
 
