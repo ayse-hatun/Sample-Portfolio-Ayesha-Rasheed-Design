@@ -1,73 +1,129 @@
-✨ Sample Portfolio — Ayesha Rasheed
+<div align="center">
 
-A modern, animated, and responsive portfolio website template designed for designers, developers, and businesses who want a strong digital presence.
+# ✨ Sample Portfolio — Ayesha Rasheed
 
-Built with smooth motion design, custom cursor interactions, and a clean UI system — focused on delivering a premium and engaging user experience.
+</div>
 
-🚀 Live Preview
+<p align="center">
+A modern, animated, and responsive portfolio template designed for designers and businesses who want a powerful digital presence.
+</p>
 
-Add your deployed link here
-https://your-live-demo-link.com
+<p align="center">
+Built with motion design, custom cursor interactions, and modern UI principles.
+</p>
 
-🎯 Purpose
+---
 
-This project was created to explore modern UI/UX principles and interactive web experiences.
+## 🌟 About This Project
 
-It focuses on:
+This project explores **modern web experience design** focused on:
 
-Strong visual storytelling
-Smooth motion-based interactions
-Clean and responsive layouts
-Modern portfolio presentation standards
-✨ Features
-🎨 Modern UI/UX design system
-🖱️ Custom cursor interaction effects
-🎬 Smooth motion animations
-📱 Fully responsive layout (mobile-first)
-⚡ Lightweight and fast performance
-🧩 Reusable component-based structure
-🌐 Business + personal portfolio use case
-🧠 Tech Stack
-HTML5
-CSS3
-JavaScript
-Motion / Animation library
-Responsive design principles
-📸 Preview
+- Smooth UI animations  
+- Interactive cursor behavior  
+- Clean responsive layouts  
+- Strong visual hierarchy  
+- Portfolio-grade presentation system  
 
-Add screenshots or GIFs here
-(Recommended: hero section + scroll animation + cursor effect)
+It is designed not just as a website, but as a **visual experience system**.
 
-💡 What Makes This Different
+---
+
+## ⚡ Key Features
+
+<div>
+
+✔️ Modern UI/UX Design System  
+✔️ Smooth Motion Animations  
+✔️ Custom Cursor Interactions  
+✔️ Fully Responsive (Mobile + Desktop)  
+✔️ Lightweight and Fast  
+✔️ Business + Designer Use Case Ready  
+
+</div>
+
+---
+
+## 🧠 Tech Stack
+
+<p>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Motion-FF4D4D?style=for-the-badge"/>
+</p>
+
+---
+
+## 🎯 What Makes This Different
 
 Unlike basic portfolio templates, this project focuses on:
 
-Interaction-driven UI instead of static design
-Smooth motion transitions for modern web feel
-Custom cursor experience for engagement
-Clean structure suitable for real client websites
-📁 Project Structure
+- Interaction-driven design instead of static pages  
+- Motion-based storytelling  
+- Premium feel UI transitions  
+- Custom cursor experience for engagement  
+- Clean structure suitable for real client websites  
+
+---
+
+## 📸 Preview
+
+<div align="center">
+
+<img src="https://via.placeholder.com/900x450.png?text=Portfolio+Preview+1" width="80%"/>
+
+<br><br>
+
+<img src="https://via.placeholder.com/900x450.png?text=Portfolio+Preview+2" width="80%"/>
+
+</div>
+
+---
+
+## 📁 Project Structure
 /assets
 /styles
 /scripts
 index.html
 README.md
-🔧 Future Improvements
-Dark / Light mode toggle
-Component modularization
-Performance optimization
-More animation presets
-CMS integration (optional)
-👩‍💻 Author
 
-Ayesha Rasheed
-Full Stack & AI Systems Engineer
-Focused on building human-centered AI systems and interactive web experiences.
+---
 
-GitHub: https://github.com/ayse-hatun
-LinkedIn: [add your link]
+## 🚀 Future Improvements
 
-⭐ If you like this project
+- Dark / Light mode toggle  
+- More animation presets  
+- Component-based refactor  
+- Performance optimization  
+- CMS integration (optional)  
 
-Feel free to star the repo or fork it for your own customization.
+---
 
+## 👩‍💻 Author
+
+<div align="center">
+
+**Ayesha Rasheed**  
+Full Stack & AI Systems Engineer  
+
+Building human-centered AI systems & interactive web experiences.
+
+</div>
+
+---
+
+## ⭐ Support
+
+If you like this project:
+- ⭐ Star the repo  
+- 🍴 Fork it  
+- 🛠️ Customize it  
+
+---
+
+<div align="center">
+
+ *Designed to feel like a product 🤍, not just a template*
+
+</div>
