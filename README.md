@@ -71,11 +71,7 @@ Unlike basic portfolio templates, this project focuses on:
 
 <div align="center">
 
-<img src="https://via.placeholder.com/900x450.png?text=Portfolio+Preview+1" width="80%"/>
-
-<br><br>
-
-<img src="https://via.placeholder.com/900x450.png?text=Portfolio+Preview+2" width="80%"/>
+<a src="https://portfolio-ayesha-rasheed.vercel.app/" width="80%"/>
 
 </div>
 
