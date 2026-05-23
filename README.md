@@ -1,16 +1,73 @@
-# React + Vite
+✨ Sample Portfolio — Ayesha Rasheed
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, animated, and responsive portfolio website template designed for designers, developers, and businesses who want a strong digital presence.
 
-Currently, two official plugins are available:
+Built with smooth motion design, custom cursor interactions, and a clean UI system — focused on delivering a premium and engaging user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Live Preview
 
-## React Compiler
+Add your deployed link here
+https://your-live-demo-link.com
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🎯 Purpose
 
-## Expanding the ESLint configuration
+This project was created to explore modern UI/UX principles and interactive web experiences.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It focuses on:
+
+Strong visual storytelling
+Smooth motion-based interactions
+Clean and responsive layouts
+Modern portfolio presentation standards
+✨ Features
+🎨 Modern UI/UX design system
+🖱️ Custom cursor interaction effects
+🎬 Smooth motion animations
+📱 Fully responsive layout (mobile-first)
+⚡ Lightweight and fast performance
+🧩 Reusable component-based structure
+🌐 Business + personal portfolio use case
+🧠 Tech Stack
+HTML5
+CSS3
+JavaScript
+Motion / Animation library
+Responsive design principles
+📸 Preview
+
+Add screenshots or GIFs here
+(Recommended: hero section + scroll animation + cursor effect)
+
+💡 What Makes This Different
+
+Unlike basic portfolio templates, this project focuses on:
+
+Interaction-driven UI instead of static design
+Smooth motion transitions for modern web feel
+Custom cursor experience for engagement
+Clean structure suitable for real client websites
+📁 Project Structure
+/assets
+/styles
+/scripts
+index.html
+README.md
+🔧 Future Improvements
+Dark / Light mode toggle
+Component modularization
+Performance optimization
+More animation presets
+CMS integration (optional)
+👩‍💻 Author
+
+Ayesha Rasheed
+Full Stack & AI Systems Engineer
+Focused on building human-centered AI systems and interactive web experiences.
+
+GitHub: https://github.com/ayse-hatun
+LinkedIn: [add your link]
+
+⭐ If you like this project
+
+Feel free to star the repo or fork it for your own customization.
+
